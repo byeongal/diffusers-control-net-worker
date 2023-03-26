@@ -1,3 +1,10 @@
 {
-  "recommendations": ["ms-python.python", "VisualStudioExptTeam.vscodeintellicode", "streetsidesoftware.code-spell-checker"]
+  "recommendations": [
+    "ms-python.python",
+    "ms-python.isort",
+    "ms-python.black-formatter",
+    "ms-python.flake8",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "streetsidesoftware.code-spell-checker",
+  ]
 }

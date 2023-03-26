@@ -21,12 +21,19 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pydantic = "^1.10.7"
+celery = "^5.2.7"
+firebase-admin = "^6.1.0"
+loguru = "^0.6.0"
+torch = "^2.0.0"
+diffusers = "^0.14.0"
+opencv-python = "^4.7.0.72"
 
 [tool.poetry.dev-dependencies]
 black = "^22.6.0"
 flake8 = "^5.0.4"
 isort = "^5.10.1"
-pre-commit = "^3.2.1"
+pre-commit = "^2.20.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

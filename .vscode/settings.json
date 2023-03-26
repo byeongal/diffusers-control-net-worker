@@ -3,10 +3,14 @@
   "python.linting.enabled": true,
   "python.formatting.provider": "black",
   "[python]": {
-    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordBasedSuggestions": false,
     "editor.codeActionsOnSave": {
       "source.organizeImports": true,
-      "python.sortImports": true
     }
-  }
+  },
+  "isort.args": [
+    "--profile",
+    "black"
+  ]
 }
